@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+
+# Build output
+out/
+dist/
+dist-electron/
+
+# Bundled pi binary (compiled at build time)
+resources/pi
+
+# Generated files
+src/renderer/generated/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Electron Forge
+.make/
+forge.config.js.orig
+
+# TypeScript
+*.tsbuildinfo
+
+# Webpack
+.webpack/
+
+# Testing
+coverage/
+
+# Packaging artifacts
+*.deb
+*.AppImage
+*.snap
